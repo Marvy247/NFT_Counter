@@ -6,9 +6,9 @@ contract NFTCount{
     uint public numberOfNFT;
 
     // CHECK total number of NFT
-    function checkTotalNFT() public {
-        
-    }
+    function getTotalNFT() external view returns(uint) {
+            return numberOfNFT;
+      }
 
     // This function will increment the number of NFT
     function addNFT()  public {

@@ -14,16 +14,22 @@
 			},
 			{
 				"inputs": [],
-				"name": "checkTotalNFT",
+				"name": "deleteNFT",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "deleteNFT",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "getTotalNFT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -68,11 +74,11 @@
 	},
 	"sources": {
 		"contracts/hello.sol": {
-			"keccak256": "0x844135b2e54079507208c48fc19ab299774f2f0a397a8950d8b4eac1c825ffdb",
+			"keccak256": "0x47874ec27e0db3c552cd8ce843e4681719a5d300dab9b59945316e1dc673e61b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3120e9d9d035088b590007ab8c9274e85dfa0398bdb858590ca8d19bc48aacd1",
-				"dweb:/ipfs/QmXdwNjw2T3DXnhQ2TNX6XGSjBmESbK9SwQd3sqihVY1W1"
+				"bzz-raw://dd0ff1564421f17729d9ff55fce5e596d7d2f2600afbe6a8e35da4fd75dda020",
+				"dweb:/ipfs/QmbHyWUnn76iBktvSFufVsFynZgH7NzWWNrG6D6gYoCBqG"
 			]
 		}
 	},
