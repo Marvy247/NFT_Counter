@@ -17,6 +17,7 @@ contract NFTCount{
 
     // This function will delete the NFT by 1
     function deleteNFT() public {
+        require(numberOfNFT > 0, "You cannot delete more than NFTs");
         numberOfNFT -= 1;
     }
 }
